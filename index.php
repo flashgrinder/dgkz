@@ -61,12 +61,6 @@
             </svg>
         </div>
         <div class="about__body container">
-            <h3 class="about__subheading title title--large title--dark title--w-light gs-reveal gs-reveal--from-left">
-                Что общего между <span class="about__text-accent">директором по данным</span> и профессором химии?
-            </h3>
-            <h3 class="about__subheading title title--large title--dark title--w-light gs-reveal gs-reveal--from-left">
-                Вы управляете <span class="about__text-accent">сложнейшими процессами</span>. Вы отвечаете за <span class="about__text-accent">создание инноваций</span>. Ваша команда знает, как <span class="about__text-accent">повысить эффективность</span> и сократить издержки.
-            </h3>
             <div class="about__grid">
                 <div class="about__column">
                     <h2 class="about__title title title--big title--dark title--w-light gs-reveal gs-reveal--from-left">
@@ -77,26 +71,32 @@
                     </h2>
                 </div>
                 <div class="about__column">
-                    <div class="about__text">
-                        <p class="about__descr text text--large text--dark text--w-semibold gs-reveal gs-reveal--from-right">
-                            Как превратить <span class="about__text-accent">данные</span> в катализатор цифрового развития вашей компании?
+                    <div class="about__text gs-reveal gs-reveal--from-righ">
+                        <h3 class="about__subtitle text text--large text--dark text--w-bold">
+                            Взрывной рост объёма данных
+                        </h3>
+                        <p class="about__descr text text--large text--dark text--w-semibold">
+                            К 2025 году мировой объём данных <span class="about__text-accent">вырастет почти в 3 раза</span> и составит более 180 зеттабайт
                         </p>
                     </div>
-                    <div class="about__text">
-                        <p class="about__descr text text--large text--dark text--w-semibold gs-reveal gs-reveal--from-right">
-                            Что делает <span class="about__text-accent">кристаллическую решётку проекта</span> по-настоящему устойчивой?
+                    <div class="about__text gs-reveal gs-reveal--from-right">
+                        <h3 class="about__subtitle text text--large text--dark text--w-bold">
+                            Стратегия, основанная на данных
+                        </h3>
+                        <p class="about__descr text text--large text--dark text--w-semibold">
+                            Инвестиции компаний, внедривших корпоративный каталог данных, окупаются <span class="about__text-accent">в 3 раза быстрее</span> (Gartner, 2020)
                         </p>
                     </div>
-                    <div class="about__text">
-                        <p class="about__descr text text--large text--dark text--w-semibold gs-reveal gs-reveal--from-right">
-                            Как <span class="about__text-accent">синтезировать цифровой продукт</span> идеальной чистоты и без побочных примесей?
+                    <div class="about__text gs-reveal gs-reveal--from-right">
+                        <h3 class="about__subtitle text text--large text--dark text--w-bold">
+                            Данные в облаке
+                        </h3>
+                        <p class="about__descr text text--large text--dark text--w-semibold">
+                            <span class="about__text-accent">82% компаний</span> уже работают в облаках (Forbes/Techrepublic)
                         </p>
                     </div>
                 </div>
             </div>
-            <h3 class="about__subheading title title--large title--dark title--w-light gs-reveal gs-reveal--from-left">
-                <span class="about__text-accent">Ответы</span> на эти вопросы можно получить в специальной лаборатории DIS Group Forum. Ставить опыты будут <span class="about__text-accent">ведущие эксперты</span> российских компаний!
-            </h3>
         </div>
         <div class="about__decor about__decor--bottom">
             <svg class="about__decor-svg" width="271" height="98" viewBox="0 0 271 98" fill="none" xmlns="http://www.w3.org/2000/svg">

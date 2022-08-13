@@ -325,6 +325,10 @@ img {
   color: var(--color-dark);
 }
 
+.title--black {
+  color: var(--color-black);
+}
+
 .title--blue {
   color: var(--color-blue);
 }
@@ -1290,7 +1294,7 @@ img {
 }
 
 .about__decor--bottom {
-  bottom: 0;
+  bottom: 7%;
   left: 20%;
 }
 
@@ -1298,12 +1302,7 @@ img {
   color: var(--color-blue);
 }
 
-.about__subheading {
-  margin-top: 50px;
-}
-
 .about__grid {
-  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 50px;
@@ -1336,6 +1335,10 @@ img {
 
 .about__text:nth-child(2)::after {
   bottom: 0;
+}
+
+.about__subtitle + .about__descr {
+  margin-top: 15px;
 }
 
 .about__descr ~ .about__descr {
@@ -1820,6 +1823,7 @@ img {
   }
 
   .about__decor--bottom {
+    bottom: -10px;
     left: 40%;
   }
 
