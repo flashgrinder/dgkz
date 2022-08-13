@@ -1,5 +1,5 @@
 {
-  "name": "dgforum",
+  "name": "dgkz",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -67,10 +67,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flashgrinder/dgforum.git"
+    "url": "git+https://github.com/flashgrinder/dgkz.git"
   },
   "bugs": {
-    "url": "https://github.com/flashgrinder/dgforum/issues"
+    "url": "https://github.com/flashgrinder/dgkz/issues"
   },
-  "homepage": "https://github.com/flashgrinder/dgforum#readme"
+  "homepage": "https://github.com/flashgrinder/dgkz#readme"
 }
