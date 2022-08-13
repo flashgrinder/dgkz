@@ -108,7 +108,7 @@
     <!-- /. About -->
 
     <!-- Register -->
-    <section class="register block-padding">
+    <section class="register block-padding hide">
         <div class="register__body container">
             <div class="register__inner">
                 <h2 class="register__heading title title--large title--white title--w-semibold gs-reveal gs-reveal--from-left">
@@ -840,7 +840,7 @@
     <!-- /. Programm -->
 
     <!-- Register -->
-    <section class="register block-padding">
+    <section class="register block-padding hide">
         <div class="register__body container">
             <div class="register__inner">
                 <h2 class="register__heading title title--large title--white title--w-semibold gs-reveal gs-reveal--from-left">
