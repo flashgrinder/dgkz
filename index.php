@@ -1168,34 +1168,12 @@
     <!-- Partners -->
     <section class="partners block-padding" id="partners">
         <div class="partners__body container">
-            <h2 class="partners__heading title title--big title--dark title--w-semibold title--indent gs-reveal gs-reveal--from-left">
-                При поддержке
-            </h2>
-        </div>
-        <div class="partners__outer container-page gs-reveal gs-reveal--from-right">
-            <div class="partners__wrapper-items partners__item--slider-one swiper-container">
-                <div class="partners__items swiper-wrapper">
-                    <a href="" class="partners__item swiper-slide">
-                        <img src="<?php echo STANDART_DIR; ?>img/partners/abd.png" alt="" class="partners__logo">
-                    </a>
-                    <a href="" class="partners__item swiper-slide">
-                        <img src="<?php echo STANDART_DIR; ?>img/partners/arenadata.png" alt="" class="partners__logo">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /. Partners -->
-
-    <!-- Partners -->
-    <section class="partners block-padding" id="partners">
-        <div class="partners__body container">
             <h2 class="partners__heading title title--big title--dark title--w-semibold title--indent">
                 Информационные партнеры
             </h2>
         </div>
         <div class="partners__outer container-page gs-reveal gs-reveal--from-right">
-            <div class="partners__wrapper-items partners__item--slider-two swiper-container">
+            <div class="partners__wrapper-items partners__item--slider-one swiper-container">
                 <div class="partners__items swiper-wrapper">
                     <a href="" class="partners__item swiper-slide">
                         <img src="<?php echo STANDART_DIR; ?>img/partners/bisjurnal.png" alt="" class="partners__logo">

@@ -7,19 +7,6 @@ function init() {
     const partnersSliderOne = new Swiper(".partners__item--slider-one", {
         loop: true,
         autoHeight: true,
-        slidesPerView: 2,
-        spaceBetween: 20,
-        effect: 'slide',
-        speed: 10000,
-        autoplay: {
-            delay: 0,
-            disableOnInteraction: false
-        }
-    });
-
-    const partnersSliderTwo = new Swiper(".partners__item--slider-two", {
-        loop: true,
-        autoHeight: true,
         slidesPerView: 5,
         spaceBetween: 20,
         effect: 'slide',
