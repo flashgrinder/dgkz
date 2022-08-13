@@ -1188,9 +1188,9 @@ img {
 
 .main-screen {
   position: relative;
-  background: url("../img/main-screen/main-screen-bg.svg") no-repeat;
-  background-size: 50%;
-  background-position: center right;
+  background: url("../img/main-screen/main-screen-bg.png") no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
   padding: 200px 0;
   height: 100vh;
   display: flex;
@@ -1209,17 +1209,62 @@ img {
   z-index: -1;
 }
 
-.main-screen__title-ext {
-  display: inline-block;
-  padding: 5px 10px;
-  color: black;
-  background: var(--color-white);
-  mix-blend-mode: multiply;
-  border-radius: 10px;
+.main-screen__text {
+  margin-top: 100px;
 }
 
 .main-screen__actions {
   margin-top: 50px;
+}
+
+.main-screen__solution {
+  position: relative;
+  margin-top: 100px;
+}
+
+.main-screen__heading-solutions {
+  position: relative;
+  display: inline-block;
+}
+
+.main-screen__solution::after {
+  content: "";
+  position: absolute;
+  right: -940%;
+  width: 1000%;
+  top: 20px;
+  opacity: 0.3;
+  border: 1px solid #FFFFFF;
+}
+
+.main-screen__leaders {
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-screen__solution::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1000%;
+  bottom: 0;
+  opacity: 0.3;
+  border: 1px solid #FFFFFF;
+}
+
+.main-screen__item-leaders {
+  max-height: 32px;
+}
+
+.main-screen__item-leaders ~ .main-screen__item-leaders {
+  margin-left: 20px;
+}
+
+.main-screen__logo {
+  display: block;
 }
 
 /* About */
@@ -1659,6 +1704,10 @@ img {
     padding-bottom: 20px;
   }
 
+  .header__logo {
+    max-width: 50px;
+  }
+
   .header__action {
     margin-left: 0;
     margin-top: 40px;
@@ -1706,6 +1755,11 @@ img {
     display: flex;
   }
 
+  .main-screen__solution::after {
+    right: auto;
+    top: -20px;
+  }
+
   .register__decor {
     top: auto;
     bottom: -75px;
@@ -1744,8 +1798,20 @@ img {
   .main-screen {
     padding: 200px 0 100px;
     justify-content: flex-start;
-    background-size: 100%;
-    background-position: center bottom;
+    height: auto;
+  }
+
+  .main-screen__solution {
+    margin-top: 100px;
+  }
+
+  .main-screen__leaders {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main-screen__item-leaders ~ .main-screen__item-leaders {
+    margin: 20px;
   }
 
   .about__decor--top {
@@ -1802,6 +1868,10 @@ img {
 
   .main-screen {
     justify-content: center;
+  }
+
+  .main-screen__text {
+    margin-top: auto;
   }
 
   .register__decor {
