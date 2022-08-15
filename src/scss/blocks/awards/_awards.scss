@@ -1,0 +1,14 @@
+.awards {
+    background: #F2F3F8;
+}
+
+.awards__inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(400px, 1fr));
+    grid-gap: 50px;
+}
+
+.awards__descr,
+.awards__btn {
+    margin-top: 60px;
+}
