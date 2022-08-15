@@ -1509,6 +1509,50 @@ img {
 
 /* Discus */
 
+.discus__article {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(320px, 500px) minmax(320px, 700px);
+  grid-gap: 50px;
+  justify-content: space-between;
+  padding: 30px 0 100px;
+}
+
+.discus__article::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 0;
+  left: -1000%;
+  right: -1000%;
+  background: var(--color-black);
+}
+
+.discus__title {
+  position: relative;
+  margin: 0;
+}
+
+.discus__descr {
+  margin-top: 30px;
+}
+
+.discus__num {
+  position: absolute;
+  left: -50px;
+  top: 4px;
+}
+
+.discus__img {
+  display: block;
+  max-height: 350px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
 /* Programm */
 
 /* Interesting */
@@ -1610,6 +1654,25 @@ img {
 }
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .discus__article {
+    padding: 30px 0 50px;
+  }
+
+  .discus__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discus__title-text {
+    margin-top: 20px;
+  }
+
+  .discus__num {
+    position: static;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .hide-tablet {
@@ -1761,6 +1824,10 @@ img {
 
   .about__title ~ .about__title {
     margin-top: 30px;
+  }
+
+  .discus__article {
+    grid-template-columns: 1fr;
   }
 }
 
