@@ -1820,6 +1820,10 @@ img {
     padding: 50px 0;
   }
 
+  .block-padding--130 {
+    padding: 50px 0;
+  }
+
   .main-screen {
     padding: 200px 0 100px;
     justify-content: flex-start;
