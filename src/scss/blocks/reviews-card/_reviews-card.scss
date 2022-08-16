@@ -4,6 +4,9 @@
 
 .reviews-card__body {
     padding: 90px 100px 90px 100px;
+    @include mobile-block {
+        padding: 40px 20px;
+    }
 }
 
 .reviews-card__man {
@@ -12,6 +15,10 @@
     grid-gap: 20px;
     align-items: center;
     margin-top: 60px;
+    @include mobile-block {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
 }
 
 .reviews-card__figure {
