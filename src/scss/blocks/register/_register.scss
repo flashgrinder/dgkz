@@ -1,39 +1,21 @@
 .register {
-    position: relative;
-    background-color: var(--color-black);
-    overflow: hidden;
+    border-bottom: 1px solid var(--color-gray);
 }
 
 .register__inner {
-    position: relative;
-    z-index: 10;
-    max-width: 600px;
-}
-
-.register__decor {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
-    pointer-events: none;
-    user-select: none;
-    @include tablet-block {
-        top: auto;
-        bottom: -75px;
-        opacity: 0.2;
-    }
-    @include mobileXS(bottom, -145px);
-}
-
-.register__decor-svg {
-    @include tablet(max-width, 550px);
-    @include mobileXS(max-width, 360px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
 }
 
 .register__descr {
-    margin-top: 25px;
+    padding: 30px 0;
+}
+
+.register__descr ~ .register__descr {
+    border-top: 1px solid var(--color-gray);
 }
 
 .register__action {
-    margin-top: 45px;
+    margin-top: 90px;
 }

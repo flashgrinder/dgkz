@@ -50,6 +50,7 @@
 :root {
   --color-white: #FFFFFF;
   --color-black: #000;
+  --color-gray: #5E636A;
   --color-dark: #343a40;
   --color-dark-blue: #192533;
   --color-orange: #ff5001;
@@ -1401,34 +1402,25 @@ img {
 /* Register */
 
 .register {
-  position: relative;
-  background-color: var(--color-black);
-  overflow: hidden;
+  border-bottom: 1px solid var(--color-gray);
 }
 
 .register__inner {
-  position: relative;
-  z-index: 10;
-  max-width: 600px;
-}
-
-.register__decor {
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
 }
 
 .register__descr {
-  margin-top: 25px;
+  padding: 30px 0;
+}
+
+.register__descr ~ .register__descr {
+  border-top: 1px solid var(--color-gray);
 }
 
 .register__action {
-  margin-top: 45px;
+  margin-top: 90px;
 }
 
 /* Team */
@@ -1779,16 +1771,6 @@ img {
     top: -20px;
   }
 
-  .register__decor {
-    top: auto;
-    bottom: -75px;
-    opacity: 0.2;
-  }
-
-  .register__decor-svg {
-    max-width: 550px;
-  }
-
   .team__items {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-gap: 50px;
@@ -1887,14 +1869,6 @@ img {
 
   .main-screen__text {
     margin-top: auto;
-  }
-
-  .register__decor {
-    bottom: -145px;
-  }
-
-  .register__decor-svg {
-    max-width: 360px;
   }
 
   .team-card {
