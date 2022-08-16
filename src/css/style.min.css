@@ -408,6 +408,10 @@ img {
   }
 }
 
+.text--medium {
+  font-size: 18px;
+}
+
 .text--normal {
   font-size: 16px;
 }
@@ -1423,7 +1427,7 @@ img {
   margin-top: 90px;
 }
 
-/* Team */
+/* Reviews */
 
 .team__items {
   display: grid;
@@ -1431,76 +1435,39 @@ img {
   grid-gap: 60px;
 }
 
-/* Team-card */
+/* Reviews-card */
 
-.team-card {
+.reviews-card {
   position: relative;
+}
+
+.reviews-card__body {
+  padding: 90px 100px 90px 100px;
+}
+
+.reviews-card__man {
   display: grid;
-  grid-template-columns: minmax(0, 215px) minmax(0, 1fr);
+  grid-template-columns: minmax(77px, 77px) minmax(200px, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  margin-top: 60px;
 }
 
-.team-card::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: -10px;
-  bottom: 0;
-  left: 0;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  z-index: 0;
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.team-card:hover::before {
-  opacity: 1;
-}
-
-.team-card__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 20px;
-}
-
-.team-card__figure {
+.reviews-card__figure {
   margin: 0;
-  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--color-black);
   overflow: hidden;
-  transform: scale(1);
+  max-width: 77px;
+  max-height: 77px;
 }
 
-.team-card__photo {
+.reviews-card__photo {
   display: block;
-  height: 100%;
   width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-  transform: scale(1);
-  transition: transform 0.2s ease-in-out;
-}
-
-.team-card:hover .team-card__photo {
-  transform: scale(0.92);
-}
-
-.team-card__text {
-  margin-top: 0px;
-  transition: margin-top 0.2s ease-in-out;
-}
-
-.team-card:hover .team-card__text {
-  margin-top: 10px;
-}
-
-.team-card__descr {
-  margin-top: 20px;
 }
 
 /* Discus */
@@ -1869,18 +1836,6 @@ img {
 
   .main-screen__text {
     margin-top: auto;
-  }
-
-  .team-card {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .team-card__body {
-    margin-right: 20px;
-  }
-
-  .team-card__heading {
-    margin-top: 10px;
   }
 
   .footer__decor {
