@@ -1658,11 +1658,17 @@ img {
 
 .footer__social {
   display: flex;
+  flex-direction: column;
   margin-top: 30px;
 }
 
 .footer__soc-link {
+  font-size: 18px;
   color: var(--color-white);
+}
+
+.footer__soc-link ~ .footer__soc-link {
+  margin-top: 20px;
 }
 
 .footer__info {
@@ -1679,8 +1685,7 @@ img {
   margin-top: 20px;
 }
 
-.footer__info-text ~ .footer__info-text,
-.footer__soc-link ~ .footer__soc-link {
+.footer__info-text ~ .footer__info-text {
   margin-left: 10px;
 }
 
@@ -1895,6 +1900,17 @@ img {
 
   .main-screen__text {
     margin-top: auto;
+  }
+
+  .footer__column--one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    order: -1;
+    margin-top: 0;
+    margin-bottom: 50px;
   }
 
   .footer__decor {
