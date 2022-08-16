@@ -1432,6 +1432,10 @@ img {
   margin-top: 90px;
 }
 
+.register__action-mobile {
+  display: none;
+}
+
 /* Reviews-card */
 
 .reviews-card {
@@ -1960,6 +1964,14 @@ img {
   .why-us__inner {
     grid-template-columns: 1fr;
     padding-top: 50px;
+  }
+
+  .register__action {
+    display: none;
+  }
+
+  .register__action-mobile {
+    display: block;
   }
 
   .footer__column--one {

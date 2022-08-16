@@ -18,4 +18,14 @@
 
 .register__action {
     margin-top: 90px;
+    @include mobileXS-block {
+        display: none;
+    }
+}
+
+.register__action-mobile {
+    display: none;
+    @include mobileXS-block {
+        display: block;
+    }
 }
