@@ -4,17 +4,17 @@ function init() {
 
     Swiper.use([ Autoplay ]);
 
-    const partnersSliderOne = new Swiper(".reviews__swiper-container", {
-        loop: true,
+    const reviewsSliderOne = new Swiper(".reviews__swiper-container", {
+        loop: false,
         autoHeight: true,
         slidesPerView: 1,
         spaceBetween: 20,
         effect: 'slide',
         speed: 1500,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false
-        }
+        // autoplay: {
+        //     delay: 5000,
+        //     disableOnInteraction: false
+        // }
     });
 
 }
