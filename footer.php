@@ -11,6 +11,7 @@
                     </h4>
                     <p class="footer__descr text text--normal text--white text--w-regular">
                         Решения по управлению данными, бизнес-аналитике, защите информации и управлению знаниями. Мы упрощаем работу с данными и информацией, предоставляя новые возможности для роста бизнеса.
+                        Компания является частью международного холдинга Aman Group.
                     </p>
                     <a href="<?php echo home_url(); ?>" class="footer__logo logo">
                         <img src="<?php echo STANDART_DIR; ?>img/logo.svg" alt="" class="footer__logo-img logo__img">
@@ -20,12 +21,19 @@
                     <h4 class="footer__col-title title title--pre-medium title--white title--w-semibold">
                         Наши контакты
                     </h4>
-                    <a href="tel:++74956450201" class="footer__info">
+                    <div class="footer__info">
+                        <span class="footer__info-text text text--normal text--white text--w-semibold">
+                            Казахстан, A15E2P5, г.Алматы, проспект Аль-Фараби, д.15, блок 4В, офис 1701.
+                            <br>
+                            г.Нур-Султан, ул. Достык, 2 БЦ СААД, 4 этаж, кабинет 406
+                        </span>
+                    </div>
+                    <a href="tel:+77273115331" class="footer__info">
                         <span class="footer__info-text text text--normal text--white text--w-light">
                             Телефон:
                         </span>
                         <span class="footer__info-text text text--normal text--white text--w-semibold link">
-                            +7 495 645-0201
+                            +7 727 311-5331
                         </span>
                     </a>
                     <div class="footer__info">
@@ -33,15 +41,15 @@
                             Факс:
                         </span>
                         <span class="footer__info-text text text--normal text--white text--w-semibold">
-                            +7 495 645-0188
+                            +7 727 311-5336
                         </span>
                     </div>
-                    <a href="mailto:infaday@dis-group.ru" class="footer__info">
+                    <a href="mailto:info@data-integration.kz" class="footer__info">
                         <span class="footer__info-text text text--normal text--white text--w-light">
                             E-mail:
                         </span>
                         <span class="footer__info-text text text--normal text--white text--w-semibold link">
-                            infaday@dis-group.ru
+                            info@data-integration.kz
                         </span>
                     </a>
                 </div>
@@ -50,16 +58,16 @@
                         Мы в соц.сетях
                     </h4>
                     <div class="footer__social">
-                        <a href="https://www.facebook.com/DIS-Group-141143739295193/" class="footer__soc-link link">
-                            Telegram
+                        <a href="https://www.instagram.com/dis.group/" class="footer__soc-link link">
+                            Instagram
                         </a>
-                        <a href="https://www.facebook.com/DIS-Group-141143739295193/" class="footer__soc-link link">
+                        <a href="https://www.linkedin.com/company/2955708/" class="footer__soc-link link">
                             Linkedin
                         </a>
                         <a href="https://www.facebook.com/DIS-Group-141143739295193/" class="footer__soc-link link">
                             Facebook
                         </a>
-                        <a href="https://www.youtube.com/channel/UCfNXWK4lsMs6-Y5nS_Kf0VA" class="footer__soc-link link">
+                        <a href="https://www.youtube.com/channel/UCfNXWK4lsMs6-Y5nS_Kf0VA/featured" class="footer__soc-link link">
                             Youtube
                         </a>
                     </div>

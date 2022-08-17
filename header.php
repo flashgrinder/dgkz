@@ -25,7 +25,7 @@
                     </svg>
                 </div>
                 <h3 class="modal__title modal__field--anim title title--large title--dark title--w-regular center">
-                    Регистрация
+                    Задать вопрос
                 </h3>
                 <?php echo do_shortcode( '[contact-form-7 title="Регистрация" html_class="modal__form"]' ); ?>
             </div>
