@@ -15,9 +15,9 @@
                         <span class="title title--medium title--white title--w-light">Цифровая</span> 
                         <span class="title title--medium title--white title--w-semibold"> трансформация</span>
                     </h2>
-                    <div class="main-screen__date title title--medium title--white title--w-light gs-reveal gs-reveal--from-left">
+                    <!-- <div class="main-screen__date title title--medium title--white title--w-light gs-reveal gs-reveal--from-left">
                         19 - 20 сентября 2022
-                    </div>
+                    </div> -->
                     <div class="main-screen__actions gs-reveal gs-reveal--from-left">
                         <a href="javascript:;" class="main-screen__button button button--primary" data-modal="#registration">
                             Спросить экспертов
