@@ -1378,7 +1378,8 @@ img {
 }
 
 .why-us__img,
-.why-us__num-img {
+.why-us__num-img,
+.why-us__img-logo {
   display: block;
 }
 
@@ -1406,6 +1407,20 @@ img {
 
 .why-us__descr {
   margin-top: 40px;
+}
+
+.why-us__logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  grid-auto-rows: minmax(190px, 1fr);
+  grid-gap: 50px;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.why-us__logo {
+  max-width: 190px;
+  margin: 0 auto;
 }
 
 /* Register */
@@ -1890,6 +1905,10 @@ img {
 
   .why-us__descr {
     margin-top: 10px;
+  }
+
+  .why-us__logos {
+    grid-template-columns: 1fr;
   }
 
   .reviews-card__body {
