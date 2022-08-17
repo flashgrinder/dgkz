@@ -183,13 +183,13 @@
             </div>
             <div class="why-us__logos">
                 <div class="why-us__logo">
-                    <img src="img/why-us/informatica.jpg" alt="" class="why-us__img-logo">
+                    <img src="<?php echo STANDART_DIR; ?>img/why-us/informatica.jpg" alt="" class="why-us__img-logo">
                 </div>
                 <div class="why-us__logo">
-                    <img src="img/why-us/citrix-1.png" alt="" class="why-us__img-logo">
+                    <img src="<?php echo STANDART_DIR; ?>img/why-us/citrix-1.png" alt="" class="why-us__img-logo">
                 </div>
                 <div class="why-us__logo">
-                    <img src="img/why-us/citrix-2.png" alt="" class="why-us__img-logo">
+                    <img src="<?php echo STANDART_DIR; ?>img/why-us/citrix-2.png" alt="" class="why-us__img-logo">
                 </div>
             </div>
         </div>
