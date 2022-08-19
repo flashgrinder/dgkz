@@ -1548,12 +1548,18 @@ img {
   max-width: 395px;
 }
 
-.awards__descr,
-.awards__btn {
+.awards__items {
+  margin-top: 30px;
+}
+
+.awards__item {
+  margin-top: 20px;
+}
+
+.awards__descr {
   margin-top: 60px;
 }
 
-.awards__btn-img,
 .awards__img {
   display: block;
 }

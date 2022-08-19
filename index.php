@@ -390,10 +390,24 @@
                         Награды
                     </h2>
                     <div class="awards__descr title title--medium title--black title--w-regular">
-                        Gartner признал Informatica лидером в 5 направлениях
+                        Gartner признал Informatica лидером в 5 направлениях:
                     </div>
-                    <div class="awards__btn">
-                        <img src="<?php echo STANDART_DIR; ?>img/awards-btn.svg" alt="" class="awards__btn-img">
+                    <div class="awards__items">
+                        <div class="awards__item title title--pre-medium title--black title--w-regular">
+                            Корпоративная интеграционная платформа как сервис (iPaaS)
+                        </div>
+                        <div class="awards__item title title--pre-medium title--black title--w-regular">
+                            Решения для обеспечения качества данных
+                        </div>
+                        <div class="awards__item title title--pre-medium title--black title--w-regular">
+                            Решения для управления мастер-данными
+                        </div>
+                        <div class="awards__item title title--pre-medium title--black title--w-regular">
+                            Решения для управления метаданными
+                        </div>
+                        <div class="awards__item title title--pre-medium title--black title--w-regular">
+                            Инструменты интеграции данных
+                        </div>
                     </div>
                 </div>
                 <div class="awards__pic title title--big title--dark title--w-semibold title--indent gs-reveal gs-reveal--from-right">
