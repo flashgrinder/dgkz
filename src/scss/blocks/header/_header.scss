@@ -1,12 +1,14 @@
 .header {
-    position: absolute;
+    position: fixed;
+    top: 0;
     width: 100%;
     z-index: 10;
-    background: transparent;
+    // background: transparent;
+    background: rgba(0, 0, 0, 0.9);
     @include tablet-block {
         // position: fixed;
         z-index: 100;
-        background: rgba(0, 0, 0, 0.9);
+        // background: rgba(0, 0, 0, 0.9);
     }
 }
 

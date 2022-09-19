@@ -51,12 +51,12 @@
 .button--secondary:focus,
 .button--secondary:target {
     color: var(--color-white);
-    background: var(--color-orange);
+    background: var(--color-black);
 }
 
 .button--secondary:active {
-    color: var(--color-orange);
-    background: var(--color-white);
+    color: var(--color-white);
+    background: var(--color-black);
 }
 
 .button--secondary:disabled {
