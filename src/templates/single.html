@@ -7,12 +7,12 @@
 <!-- News -->
 <section class="news">
     <div class="news__body container">
+        <div class="news__pic">
+            <img src="https://dummyimage.com/640x360/aaa/ffffff" alt="" class="news__img">
+        </div>
         <div class="news__inner">
             <article class="news__article">
                 <header class="news__header">
-                    <div class="news__pic">
-                        <img src="https://dummyimage.com/640x360/aaa/ffffff" alt="" class="news__img">
-                    </div>
                     <h1 class="news__title title title--large title--dark title--w-semibold title--uppercase title--indent">
                         Какое-то название новости
                     </h1>
@@ -52,16 +52,67 @@
                     </p>
                 </div>
                 <footer class="news__footer">
-                    <div class="news__action">
-                        <a href="javascript:;" class="news__button button button--secondary" onclick="history.go(-1); return false;">
-                            Назад
-                        </a>
-                    </div>
                 </footer>
             </article>
             <aside class="news__aside">
+                <div class="news__file">
+                    <img src="img/uploads/book-1.png" alt="" class="news__file-img">
+                    <p class="news__file-text text text--medium text--dark text--w-regular">
+                        Пожалуйста, заполните форму ниже, чтобы получить этот файл по электронной почте.
+                    </p>
+                </div>
                 <div class="news__wraper-form">
-                    
+                    <!-- Form-page -->
+                    <div class="form-page">
+                        <div class="form-page__body">
+                            <form action="" class="form-page__form wpcf7-form">
+                                <div class="form-page__field">
+                                    <input type="email" class="form-page__input" placeholder="Email*">
+                                </div>
+                                <div class="form-page__field">
+                                    <input type="text" class="form-page__input" placeholder="ФИО*">
+                                </div>
+                                <div class="form-page__field">
+                                    <input type="tel" class="form-page__input" placeholder="Номер телефона">
+                                </div>
+                                <div class="form-page__field">
+                                    <textarea name="textarea-728" cols="40" rows="10" class="form-page__input form-page__input--textarea" placeholder="Сообщение"></textarea>
+                                </div>
+                                <div class="form-page__agree-text">
+                                    <span class="wpcf7-form-control-wrap acceptance-666">
+                                        <span class="wpcf7-form-control wpcf7-acceptance">
+                                            <span class="wpcf7-list-item">
+                                                <label>
+                                                    <input type="checkbox" name="acceptance-666" value="1" aria-invalid="false" class="form-page__checkbox form-page__checkbox--agree">
+                                                    <span class="wpcf7-list-item-label">
+                                                        Даю согласие на обработку персональных данных
+                                                    </span>
+                                                </label>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="form-page__agree-text">
+                                    <span class="wpcf7-form-control-wrap acceptance-666">
+                                        <span class="wpcf7-form-control wpcf7-acceptance">
+                                            <span class="wpcf7-list-item">
+                                                <label>
+                                                    <input type="checkbox" name="acceptance-666" value="1" aria-invalid="false" class="form-page__checkbox form-page__checkbox--agree">
+                                                    <span class="wpcf7-list-item-label">
+                                                        Да, я хотел бы получать сообщения от DIS Group о продуктах, решениях и событиях.
+                                                    </span>
+                                                </label>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="form-page__actions">
+                                    <input type="button" value="Отправить" class="form-page__btn button button--primary">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /. Form-page -->
                 </div>
             </aside>
         </div>

@@ -18,10 +18,6 @@
     justify-content: space-between;
     padding-top: 8px;
     padding-bottom: 8px;
-    @include tablet-block {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
 }
 
 .header__inner {
@@ -30,8 +26,7 @@
 }
 
 .header__logo {
-    max-width: 80px;
-    @include tablet(max-width, 50px);
+    max-width: 50px;
 }
 
 .header__action {
