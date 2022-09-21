@@ -55,6 +55,7 @@
   --color-dark-blue: #192533;
   --color-orange: #ff5001;
   --color-blue: #00A5CD;
+  --color-invalid: #FF0000;
   --font-proxima-nova: "Proxima Nova", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -1858,6 +1859,10 @@ img {
   margin: 0 auto;
 }
 
+.form-page__form.invalid .form-page__input.wpcf7-not-valid {
+  border: 1px solid #FF0000;
+}
+
 .form-page__field ~ .form-page__field {
   margin-top: 30px;
 }
@@ -1931,14 +1936,15 @@ img {
   transform: translateY(-50%);
   width: 15px;
   height: 15px;
-  border: 3px solid var(--color-dark-violet);
-  border-top: 3px solid #595959;
+  border: 3px solid var(--color-dark);
+  border-top: 3px solid var(--color-blue);
   transform-origin: center;
   -webkit-animation: rotate 1s infinite linear backwards;
           animation: rotate 1s infinite linear backwards;
 }
 
 .form-page .wpcf7 form .wpcf7-response-output {
+  display: none;
   font-family: var(--font-proxima-nova);
   font-size: 14px;
   text-align: center;
